@@ -10,8 +10,7 @@ body{
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #c4c5d4;
-}
+  background: content-box linear-gradient(rgb(70, 65, 66, 0.1), rgb(181, 193, 198), rgb(184, 104, 168));}
 .container{
   margin: 0 40px;
   max-width: 600px;
@@ -111,13 +110,14 @@ body{
       label{
         &::after{
           color: #cf878e;
+          transform: rotateX(0.5);
         }
       }
     }
     .content{
       max-height: 0;
       overflow: hidden;
-      transition: 1s;
+      transition: 1.3s;
       p{
         position: relative;
         padding: 10px 0;
